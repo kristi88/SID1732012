@@ -1,0 +1,9 @@
+{
+    "hostname": "R1",
+    "enable": "cisco",
+    "motd": "Unauthorised access is prohibited",
+    "encryption": "True", 
+    "ip_address": "192.168.56.106",
+    "username": "cisco",
+    "password": "cisco123!"
+}
