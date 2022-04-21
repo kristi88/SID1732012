@@ -1,0 +1,10 @@
+name: INTERFACE
+  hosts: CSR1kv
+  gather_facts: false
+  connection: local
+ 
+  tasks:
+    - name: generate interface config
+      template: 
+        src="interface.j2" 
+        dest="config/{{ inventory_hostname }}_interface.txt"
